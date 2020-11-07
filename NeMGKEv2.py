@@ -399,9 +399,9 @@ class BotNeMGKE:
         class IDs:
             token = "YOUR MAIN TOKEN"
             test_token = "YOUR TEST TOKEN"
-            groupid = 176701645
-            test_groupid = 175716286
-            adminids = ['142747227', '266795811']
+            groupid = 0 # group id
+            test_groupid = 0 # test group id
+            adminids = ['admin ids']
 
         @staticmethod
         def message_send(message=None, user_id=None, keyboard='', forward_message='', attachments=''):
